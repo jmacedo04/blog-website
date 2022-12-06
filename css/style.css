@@ -187,7 +187,7 @@ section{
     height: 40rem;
     width:100%;
     border-radius: .5rem;
-    object-fit: cover;
+    object-fit: cover;/*redimensionarse para ajustarse a su contenedor*/
 }
 
 .container .posts-container .post .date{
@@ -246,7 +246,7 @@ section{
 .container .sidebar .box{
     border:var(--border);
     border-radius: .5rem;
-    overflow:hidden;
+    overflow:hidden;/*recortar contenido*/
     background:#fff;
     margin-bottom: 1.5rem;
 }
@@ -312,8 +312,8 @@ section{
     font-size: 1.5rem;
     color:var(--black);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;/*h1,h2,p*/
+    justify-content: space-between;/*centrar el aside o contenido*/
 }
 
 .container .sidebar .box .category a span{
@@ -336,14 +336,14 @@ section{
 }
 
 .container .sidebar .box .p-post a{
-    padding:1rem 0;
-    display: block;
+    padding:1rem 0;/*Relleno de los costados*/
+    display: block;/*RElleno de los asides*/
 }
 
 .container .sidebar .box .p-post a h3{
     color:var(--black);
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem; /*relleno para abajo*/
 }
 
 .container .sidebar .box .p-post a span{
@@ -364,7 +364,7 @@ section{
 }
 
 .container .sidebar .box .tags a{
-    display: inline-block;
+    display: inline-block; 
     padding:1rem 1.5rem;
     font-size: 1.5rem;
     color:var(--black);
@@ -380,9 +380,9 @@ section{
 
 .contact{
     background:url(../images/contact-bg.jpg) no-repeat;
-    background-size: cover;
+    background-size: cover; /*para que la imagen tome todo el ancho*/
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;/*para que la imagen quede  fija*/
 }
 
 .contact form{
